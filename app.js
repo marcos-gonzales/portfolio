@@ -11,9 +11,6 @@ app.use(express.static(path.join(__dirname, '/public')));
 
 app.set('view engine', 'pug');
 
-app.set(port, (req, res) => {
-    res.send(`Hello world`);
-});
 
 app.listen(port, () => {
     console.log(`listening on port ${port}`);
