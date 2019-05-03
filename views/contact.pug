@@ -1,0 +1,15 @@
+extend layout
+
+block content
+  h1.header Marcos Gonzales
+  p.contact-content Feel free to contact me with any questions or inqueries
+    form.gform(action="https://script.google.com/macros/s/AKfycbwYh86Fq31vf98YJS022F-D3suc5HbUPHcGPllWVQ/exec" method='post' autofocus='autofocus')
+      label(for='name') Name
+        textarea.name-textarea(type='textarea' name='name') 
+      label(for='email') Email
+        textarea.email-textarea(type='textarea' name='email')
+      label(for='email-body') Body
+        textarea.email-body(type='textarea' name='message' rows='18' cols='84')  
+      button Submit        
+      div(style='display:none' class='thankyou_message')
+        h2 Form Submitted. Thank you for contacting me! I will get in touch soon!

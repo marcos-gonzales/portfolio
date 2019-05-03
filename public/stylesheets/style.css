@@ -1,0 +1,296 @@
+body, h1, h2, h3 {
+  font-family:'Amatic SC', 'raleway', 'sanserif';
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: 'Indie Flower'
+}
+
+
+ul {
+  border-top: solid 1px#c5d0ba;
+  padding-top: 30px;
+}
+
+a {
+  color: #c5d0ba;
+  text-decoration: none;
+}
+
+li {
+  font-size: 26px;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 50px;
+}
+
+.prime {
+  display: flex;
+  background: linear-gradient(#3f5454, #93997e);
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 380px;
+}
+
+.header {
+  color: #bebeaf;
+  font-weight: 100;
+  font-size: 60px;
+  letter-spacing: 3.6px;
+  margin-top: 30px;
+  /* font-weight: bold; */
+}
+
+.about-me {
+  margin-top: 30px;
+  line-height: 1.6;
+  font-size: 22px;
+}
+
+.skillz {
+  margin-top: 20px;
+  line-height: 1.6;
+  font-size: 22px;
+}
+
+.profile-pic {
+  margin-top: 30px;
+  width: 180px;
+  height: 180px;
+  border-radius: 125px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-container a:hover {
+  color: white;
+  box-shadow: 1px 1px 15px 3.4px;
+  border-radius: 3px;
+}
+
+button:hover {
+  color: white;
+}
+
+.wrapper {
+  background: #70828091;
+  margin-top: 25px;
+  border: solid 1px #f2fdfc;
+  border-radius: 3px;
+  padding: 15px;
+  box-shadow: 1px 1px 15px 0.4px;
+  margin-bottom: 10px;
+}
+
+.project {
+  position: relative;
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  border: solid 1px #b3bfa7;
+  border-radius: 3px;
+}
+
+
+.tutorial {
+  width: 250px;
+  height: 200px;
+  border: solid 1px #b3bfa7;
+  border-radius: 3px;
+}
+
+.tutorial-p {
+  font-size: 22px;
+} 
+
+.skills-header {
+  margin-top: 15px;
+  font-size: 30px;
+  letter-spacing: 6.4px;
+  color: #bebeaf;
+}
+
+.skills {
+  width: 500px;
+  margin: 60px auto;
+  color: #d0e0d4;
+}
+
+.skills li  {
+  margin: 20px auto;
+}
+
+.skills-content {
+  font-size: 22px;
+}
+
+.bar {
+  background:#36503d;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #cecece;
+}
+
+.bar span {
+  height: 2px;
+  float: left;
+  background: #68c782;
+}
+
+.html {
+  width: 90%;
+  animation: html 2s;
+}
+
+.css {
+  width: 60%;
+  animation: css 2s;
+}
+
+.javascript {
+  width: 50%;
+  animation: javascript 2s;
+}
+
+.node {
+  width: 70%;  
+  animation: node 2s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes node {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  .skills {
+    width: 300px;
+    min-height: 790px;
+   }
+  .gform {
+    margin-bottom: 450px;
+  }
+}
+
+.email input[type='textarea'] {
+  margin-left: 44px;
+}
+
+#email-body input[type='textarea'] {
+  padding: 30px !important;
+}
+
+.gform {
+  display:flex;
+  flex-direction: column;
+  background: rgba(226, 233, 241, 0.4);
+  height: 500px;
+  width: 700px;
+  border: solid 3px white;
+  border-radius: 4px;
+  margin-bottom: 450px;
+}
+
+.gform label {
+  text-decoration: underline;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.name-textarea {
+  margin-left: 40px;
+  margin-top: 24px;
+  height: 20px;
+  width: 520px;
+  border-radius: 4px;
+  border: 1px solid white;
+  box-shadow: 1px 1px 1px 1px #8bad8b;
+}
+
+.email-textarea {
+  margin-left: 38px;
+  margin-top: 24px;
+  height: 20px;
+  width: 520px;
+  border-radius: 4px;
+  border: 1px solid white;
+  box-shadow: 1px 1px 1px 1px #8bad8b;
+}
+
+.email-body {
+  height: 210px;
+  width: 522px;
+  margin-left: 46px;
+  margin-top: 24px;
+  border-radius: 4px;
+  border: 1px solid white;
+  box-shadow: 1px 1px 1px 1px #8bad8b;
+}
+
+.gform button {
+  margin: 20px 0 0 20px;
+  cursor: pointer;
+  width: 200px;
+  height: 34px;
+  border-radius: 4px;
+  background-color: #798371;
+  font-family: 'Indie Flower', 'sanserif';
+  font-size: 20px;
+  border: solid 1px #e9fbe9;
+}
+
+.contact-content {
+  font-size: 20px;
+  color: #bebeaf;
+}
+
+textarea {
+  font-family: 'raleway', 'sanserif';
+  font-size: 22px;
+}
+
