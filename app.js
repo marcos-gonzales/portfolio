@@ -11,11 +11,6 @@ app.use(express.static(path.join(__dirname, '/public')));
 
 app.set('view engine', 'pug');
 
-
-app.listen(port, () => {
-    console.log(`listening on port ${port}`);
-});
-
 app.get('/', (req, res) => {
     res.render('index');
 });
