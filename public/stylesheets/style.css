@@ -40,7 +40,7 @@ li {
 }
 
 .header {
-  color: #C3D0B5;
+  color: #c8e6c9;
   font-size: 76px;
   letter-spacing: 3.6px;
   margin-top: 30px;
@@ -99,15 +99,15 @@ button:hover {
   height: 200px;
   border: solid 1px #b3bfa7;
   border-radius: 3px;
+  margin-left: 104px;
 }
-
 
 .tutorial {
   width: 250px;
   height: 200px;
   border: solid 1px #b3bfa7;
   border-radius: 3px;
-  /* margin-left: 95px; */
+  margin-left: 104px;
 }
 
 .tutorial-p {

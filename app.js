@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const favicon = require('serve-favicon')
+
 
 app.set('port', process.env.PORT || 5000);
 const server = app.listen(app.get('port'), () => {
@@ -8,6 +10,7 @@ const server = app.listen(app.get('port'), () => {
 });
 
 app.use(express.static(path.join(__dirname, '/public')));
+app.use(favicon(path.join(__dirname, 'public/images', 'favicon.ico')))
 
 app.set('view engine', 'pug');
 
