@@ -11,7 +11,6 @@ p {
 
 ul {
   border-top: solid 1px#c5d0ba;
-  padding-top: 30px;
 }
 
 a {
@@ -30,7 +29,6 @@ li {
   display: flex;
   background: linear-gradient(#3f5454, #93997e);
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .container {
@@ -43,11 +41,10 @@ li {
 
 .header {
   color: #bebeaf;
-  font-weight: 100;
   font-size: 60px;
   letter-spacing: 3.6px;
   margin-top: 30px;
-  /* font-weight: bold; */
+  font-weight: 100;
 }
 
 .about-me {
@@ -207,15 +204,6 @@ button:hover {
   }
 }
 
-@media only screen and (max-device-width: 480px) {
-  .skills {
-    width: 300px;
-    min-height: 790px;
-   }
-  .gform {
-    margin-bottom: 450px;
-  }
-}
 
 .email input[type='textarea'] {
   margin-left: 44px;
@@ -293,4 +281,40 @@ textarea {
   font-family: 'raleway', 'sanserif';
   font-size: 22px;
 }
+
+@media only screen and (max-device-width: 480px) {
+  .container {
+    margin: 0 190px;
+  }
+  .skills {
+    width: 500px;
+    min-height: 1059px;
+   }
+  .gform {
+    margin-bottom: 644px;
+    margin-top: 60px;
+  }
+  .gform label {
+    font-size: 44px;
+  }
+  .gform button {
+    font-size: 44px;
+    height: 66px;
+    width: 237px;
+    border-radius: 24px;
+  }
+  .header {
+    font-size: 115px;
+  }
+  .about-me, .skillz, .tutorial-p, .skills-content, .contact-content, li {
+    font-size: 44px;
+  }
+  li {
+    margin-top: 20px;
+  }
+  ul {
+    border-top: solid 4px#c5d0ba;
+  }
+}
+
 
