@@ -40,7 +40,7 @@ li {
 }
 
 .header {
-  color: #bebeaf;
+  color: #C3D0B5;
   font-size: 76px;
   letter-spacing: 3.6px;
   margin-top: 30px;
@@ -51,12 +51,14 @@ li {
   margin-top: 30px;
   line-height: 1.6;
   font-size: 22px;
+  color: #b1b1a3;
 }
 
 .skillz {
   margin-top: 20px;
   line-height: 1.6;
   font-size: 22px;
+  color: #b1b1a3;
 }
 
 .profile-pic {
@@ -105,9 +107,11 @@ button:hover {
   height: 200px;
   border: solid 1px #b3bfa7;
   border-radius: 3px;
+  /* margin-left: 95px; */
 }
 
 .tutorial-p {
+  color: #b1b1a3;
   font-size: 22px;
 } 
 
@@ -115,7 +119,7 @@ button:hover {
   margin-top: 15px;
   font-size: 30px;
   letter-spacing: 6.4px;
-  color: #bebeaf;
+  color: #b1b1a3;
 }
 
 .skills {
@@ -130,6 +134,7 @@ button:hover {
 
 .skills-content {
   font-size: 22px;
+  color: #b1b1a3;
 }
 
 .bar {
@@ -265,7 +270,7 @@ button:hover {
   cursor: pointer;
   width: 200px;
   height: 34px;
-  border-radius: 4px;
+  border-radius: 22px;
   background-color: #798371;
   font-family: 'Indie Flower', 'sanserif';
   font-size: 20px;
@@ -288,10 +293,10 @@ textarea {
   }
   .skills {
     width: 500px;
-    min-height: 1059px;
+    min-height: 710px;
    }
   .gform {
-    margin-bottom: 644px;
+    margin-bottom: 296px;
     margin-top: 60px;
   }
   .gform label {
@@ -299,9 +304,9 @@ textarea {
   }
   .gform button {
     font-size: 44px;
-    height: 66px;
-    width: 237px;
-    border-radius: 24px;
+    height: 53px;
+    width: 200px;
+    border-radius: 21px;
   }
   .header {
     font-size: 115px;
@@ -314,6 +319,20 @@ textarea {
   }
   ul {
     border-top: solid 4px#c5d0ba;
+  }
+  .wrapper {
+  margin-top: 35px;
+  }
+  .project, .tutorial {
+    height: 250px;
+    width: 350px;
+    margin-left: 95px;
+  }
+  .profile-pic {
+    height: 400px;
+    width: 400px;
+    border-radius: 241px;
+    margin-bottom: 20px;
   }
 }
 
